@@ -46,6 +46,7 @@ function Dashbord(props) {
       <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}`}><Button  color="inherit">Dashbord</Button></Link>
       <Link style={{textDecoration:"none", color:"#1976d2"}} to='/moreproducts'><Button  color="inherit">More Products</Button></Link>
       <Link style={{textDecoration:"none", color:"#1976d2"}} to={'/home'}><Button  color="inherit">Go To  Home  </Button></Link>
+      <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}/payments`}><Button  color="inherit">Payment </Button></Link>
       
      
       {
@@ -53,7 +54,7 @@ function Dashbord(props) {
               <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}/manageorder`}><Button  color="inherit">Manage Order</Button></Link>  
               <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}/makeAdmin`}><Button  color="inherit">Make Admin</Button></Link>  
               <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}/addproducts`}><Button  color="inherit">Add Products</Button></Link>  
-              <Link style={{textDecoration:"none", color:"#1976d2"}} to={`${url}/payments`}><Button  color="inherit">Payment </Button></Link>
+              
                  </Box>
       }
       
