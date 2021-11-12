@@ -6,7 +6,7 @@ const ShowComments = () => {
     const [comment, setComment] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/comments')
+        fetch('https://evening-tor-13329.herokuapp.com/comments')
         .then(res => res.json())
         .then(data => setComment(data))
     },[])

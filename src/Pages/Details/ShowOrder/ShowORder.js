@@ -8,7 +8,7 @@ const ShowORder = ({details}) => {
     const { reset } = useForm();
     // DELETE an user
     const handleDeleteORders = id => {
-        const url = `http://localhost:5000/orders/${id}`
+        const url = `https://evening-tor-13329.herokuapp.com/orders/${id}`
         fetch(url,{
             method: 'DELETE',
             headers:{

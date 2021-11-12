@@ -9,7 +9,7 @@ const ProductComment = () => {
 
   const onSubmit = data => {
     console.log(data)
-    fetch('http://localhost:5000/comments', {
+    fetch('https://evening-tor-13329.herokuapp.com/comments', {
         method:'POST',
         headers: {
             'content-type': 'application/json'

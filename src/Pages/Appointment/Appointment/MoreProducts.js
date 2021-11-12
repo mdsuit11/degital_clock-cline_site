@@ -6,7 +6,7 @@ const MoreProducts = () => {
     const [moreProducts, setMoreProducts] = useState([]);
 
     useEffect(()=> {
-        fetch('http://localhost:5000/moreProducts')
+        fetch('https://evening-tor-13329.herokuapp.com/moreProducts')
         .then(res=> res.json())
         .then(data=> setMoreProducts(data))
         // console.log(moreProducts);
