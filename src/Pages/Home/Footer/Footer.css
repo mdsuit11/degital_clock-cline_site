@@ -1,0 +1,27 @@
+.footer-main-container{
+    background-color: #272727;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+.fotter-input{
+    background-color: white;
+    color: white;
+    margin-right: 15px;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.footer-container li{
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+.footer-container h2{
+   
+    text-align: left;
+    margin-left: 50px;
+    
+}
