@@ -1,11 +1,11 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
-import useAuth from '../../../hooks/useAuth';
+// import useAuth from '../../../hooks/useAuth';
 
 
 const ProductComment = () => {
     const { register, handleSubmit, reset } = useForm();
-    const {user} = useAuth();
+    // const {user} = useAuth();
 
   const onSubmit = data => {
     console.log(data)

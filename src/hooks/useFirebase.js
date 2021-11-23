@@ -96,7 +96,7 @@ const useFirebase = () => {
                 setLoding(false);
               });
               return () => unsubscribe;
-        },[]);
+        },[auth]);
 
         useEffect( () => {
           fetch(`https://mighty-thicket-37002.herokuapp.com/users/${user.email}`)
